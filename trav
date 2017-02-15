@@ -366,7 +366,7 @@ def passengers(distance, dm, current, destination, staterooms, low_berths):
             click.echo("|-> Low Berth Passengers: no low berth pods availiable")
 
         click.echo("|-> TOTAL INCOME: {0} CR".format(low_sum + med_sum + high_sum))
-            
+        click.echo("\nDM Note: Make sure the party has a sufficient steward level to take this party")   
 
 
 
